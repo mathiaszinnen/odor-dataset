@@ -1,0 +1,145 @@
+path: ../data/odor
+test: imgs/test/
+train: imgs/train/
+val: imgs/val/
+
+names:
+  0: ant
+  1: camel
+  2: jewellery
+  3: frog
+  4: physalis
+  5: celery
+  6: cauliflower
+  7: pepper
+  8: ranunculus
+  9: chess flower
+  10: cigarette
+  11: matthiola
+  12: cabbage
+  13: earring
+  14: dandelion
+  15: neroli
+  16: dragonfly
+  17: hyacinth
+  18: reptile/amphibia
+  19: apricot
+  20: snake
+  21: lizard
+  22: asparagus
+  23: spring onion
+  24: snowflake
+  25: moth
+  26: poppy
+  27: columbine
+  28: rabbit
+  29: geranium
+  30: crab
+  31: radish
+  32: big cat
+  33: jan steen jug
+  34: monkey
+  35: snail
+  36: bellflower
+  37: lilac
+  38: pot
+  39: peony
+  40: coffeepot
+  41: hazelnut
+  42: censer
+  43: artichoke
+  44: dahlia
+  45: sniffing
+  46: fly
+  47: deer
+  48: caterpillar
+  49: garlic
+  50: blackberry
+  51: chalice
+  52: lobster
+  53: necklace
+  54: bug
+  55: insect
+  56: prawn
+  57: bracelet
+  58: carrot
+  59: cornflower
+  60: pumpkin
+  61: orange
+  62: walnut
+  63: cat
+  64: daisy
+  65: forget-me-not
+  66: carafe
+  67: match
+  68: beer stein
+  69: tobacco-box
+  70: violet
+  71: pomander
+  72: bottle
+  73: candle
+  74: heliotrope
+  75: wine bottle
+  76: strawberry
+  77: pomegranate
+  78: whale
+  79: lily of the valley
+  80: iris
+  81: tobacco
+  82: olive
+  83: tobacco-packaging
+  84: meat
+  85: daffodil
+  86: melon
+  87: fire
+  88: petunia
+  89: mushroom
+  90: teapot
+  91: ring
+  92: pig
+  93: ashtray
+  94: cheese
+  95: onion
+  96: cup
+  97: nut
+  98: fig
+  99: drinking vessel
+  100: donkey
+  101: holding the nose
+  102: lily
+  103: smoke
+  104: bread
+  105: currant
+  106: glass without stem
+  107: anemone
+  108: mammal
+  109: chimney
+  110: smoking equipment
+  111: bivalve
+  112: butterfly
+  113: gloves
+  114: lemon
+  115: horse
+  116: plum
+  117: jasmine
+  118: pear
+  119: glass with stem
+  120: vegetable
+  121: carnation
+  122: jug
+  123: goat
+  124: fish
+  125: apple
+  126: tulip
+  127: cherry
+  128: cow
+  129: animal corpse
+  130: dog
+  131: fruit
+  132: bird
+  133: rose
+  134: peach
+  135: sheep
+  136: pipe
+  137: grapes
+  138: flower
