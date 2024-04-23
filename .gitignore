@@ -1,1 +1,3 @@
 mmdetection_depr/
+data/
+work_dirs/
