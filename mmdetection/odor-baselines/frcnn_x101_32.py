@@ -1,10 +1,9 @@
-_base_ = './cascade_rcnn_r50_fpn_50e_odor.py'
+_base_ = 'frcnn_r50.py'
 model = dict(
-    type='CascadeRCNN',
     backbone=dict(
         type='ResNeXt',
         depth=101,
-        groups=64,
+        groups=32,
         base_width=4,
         num_stages=4,
         out_indices=(0, 1, 2, 3),
@@ -12,4 +11,4 @@ model = dict(
         norm_cfg=dict(type='BN', requires_grad=True),
         style='pytorch',
         init_cfg=dict(
-            type='Pretrained', checkpoint='open-mmlab://resnext101_64x4d')))
+            type='Pretrained', checkpoint='open-mmlab://resnext101_32x4d')))
