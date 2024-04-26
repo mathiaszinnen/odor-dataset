@@ -21,6 +21,7 @@ The Faster R-CNN models were trained using [mmdetection](mmdetection), the DINO 
 | DINO | [detrex](detrex) |
 | Faster R-CNN | [mmdetection](mmdetection) |
 | YOLO-v8 | [ultralytics](ultralytics) |
+| Mutual-Assistance Learning | [MADet](MADet) |
 
 ## Installation
 For installation instructions for the benchmark methods, please refer to the original framework repository (see subfolders).
