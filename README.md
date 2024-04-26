@@ -14,17 +14,18 @@ The annotations are provided in COCO JSON format. To represent the two-level hie
 
 ## How to Train Benchmark Methods
 For instructions on how to use the baseline models reported in [1], please refer to the respective subdirectories. 
-The Faster R-CNN models were trained using [mmdetection](mmdetection), the DINO models via [detrex](detrex), and the YOLO using [ultralytics](ultralytics). 
+The Faster R-CNN, MADet, and FCOS models were trained using [mmdetection](https://github.com/open-mmlab/mmdetection), the DINO models via [detrex](https://github.com/IDEA-Research/detrex), and YOLO using [ultralytics](ultralytics). 
 
-| Method | Subfolder/Framework |
+| Method | Subfolder |
 | --- | --- |
-| DINO | [detrex](detrex) |
-| Faster R-CNN | [mmdetection](mmdetection) |
-| YOLO-v8 | [ultralytics](ultralytics) |
+| DINO | [DINO](DINO) |
+| Faster R-CNN | [FRCNN](FRCNN) |
+| YOLO-v8 | [YOLO](YOLO) |
 | Mutual-Assistance Learning | [MADet](MADet) |
+| FCOS | [FCOS](FCOS) |
 
 ## Installation
 For installation instructions for the benchmark methods, please refer to the original framework repository (see subfolders).
 
 ## References 
-[1] 
+[1] TBD
