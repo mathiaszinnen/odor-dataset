@@ -1,13 +1,8 @@
-_base_ = [
-    '../_base_/models/faster_rcnn_r50_fpn.py',
-    '../_base_/datasets/odor3_instance.py',
-    '../_base_/schedules/schedule_1x.py', '../_base_/default_runtime.py'
-]
+_base_ = ['frcnn_r50.py']
 
 pretrained = 'https://github.com/SwinTransformer/storage/releases/download/v1.0.0/swin_tiny_patch4_window7_224.pth'  # noqa
 
 model = dict(
-    type='FasterRCNN',
     backbone=dict(
         _delete_=True,
         type='SwinTransformer',
@@ -49,7 +44,6 @@ img_norm_cfg = dict(
 # augmentation strategy originates from DETR / Sparse RCNN
 train_pipeline = [
     dict(type='LoadImageFromFile'),
-    #dict(type='LoadAnnotations', with_bbox=True, with_mask=True),
     dict(type='LoadAnnotations', with_bbox=True),
     dict(type='RandomFlip', flip_ratio=0.5),
     dict(
@@ -105,6 +99,6 @@ optimizer = dict(
             'norm': dict(decay_mult=0.)
         }))
 lr_config = dict(warmup_iters=1000, step=[27, 33])
-runner = dict(max_epochs=150)
+runner = dict(max_epochs=50)
 
 
