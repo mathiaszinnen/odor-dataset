@@ -30,7 +30,7 @@ if __name__ == '__main__':
     print('Unzipping dataset..')
     unzip(fn, 'data/')
 
-    unzip('data/images.zip', 'data/images')
+    unzip('data/images.zip', 'data/')
 
     print('Removing temporary files')
     cleanup(fn)
