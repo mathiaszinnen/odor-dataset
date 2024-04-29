@@ -68,8 +68,14 @@ param_scheduler = [
         gamma=0.1)
 ]
 
+train_cfg = dict(
+    max_epochs=50
+)
+
 # optimizer
 optim_wrapper = dict(
     optimizer=dict(lr=0.01),
     paramwise_cfg=dict(bias_lr_mult=2., bias_decay_mult=0.),
     clip_grad=dict(max_norm=35, norm_type=2))
+
+auto_scale_lr = dict(base_batch_size=4)
