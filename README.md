@@ -26,4 +26,5 @@ Multiple frameworks were used for the training of the different methods, for ins
 For installation instructions for the benchmark methods, please refer to the original framework repository (see subfolders).
 
 ## References 
-[1] 
+[1] Mathias Zinnen, Prathmesh Madhu, Inger Leemans, Peter Bell, Azhar Hussian, Hang Tran, Ali Hürriyetoğlu, Andreas Maier, Vincent Christlein, Smelly, dense, and spreaded: The Object Detection for Olfactory References (ODOR) dataset, Expert Systems with Applications, Volume 255, Part B, 2024, 124576, ISSN 0957-4174, https://doi.org/10.1016/j.eswa.2024.124576. 
+[arXiv](https://arxiv.org/abs/2507.08384)
